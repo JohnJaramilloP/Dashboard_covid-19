@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Dashboard_covid-19/static/css/main.a5c61f44.css",
+    "main.js": "/Dashboard_covid-19/static/js/main.663e7b24.js",
+    "static/media/covid-19.jpg": "/Dashboard_covid-19/static/media/covid-19.b2592d4888691acb07db.jpg",
+    "static/media/vacuna-covid.png": "/Dashboard_covid-19/static/media/vacuna-covid.18c77e681cc9f877358a.png",
+    "static/media/black.png": "/Dashboard_covid-19/static/media/black.ab8782d89af2ff214df5.png",
+    "static/media/corona.png": "/Dashboard_covid-19/static/media/corona.f6f49da1dd635bde8c1c.png",
+    "static/media/sick.webp": "/Dashboard_covid-19/static/media/sick.6e45510d2ec86d199ab5.webp",
+    "index.html": "/Dashboard_covid-19/index.html",
+    "main.a5c61f44.css.map": "/Dashboard_covid-19/static/css/main.a5c61f44.css.map",
+    "main.663e7b24.js.map": "/Dashboard_covid-19/static/js/main.663e7b24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5c61f44.css",
+    "static/js/main.663e7b24.js"
+  ]
+}
