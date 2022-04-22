@@ -1,0 +1,30 @@
+.paginacion-container {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    padding: .3rem;
+}
+
+.input {
+    width: 6rem;
+}
+
+.btns {
+    width: 8rem;
+    margin: 0 1rem;
+    border-radius: 20px;
+    background-color: gray;
+    border: none;
+    transition: all .3s ease;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.btns:hover {
+    background-color: rgb(88, 86, 86);
+}
+
+.text-max {
+    margin: 0 1rem;
+}

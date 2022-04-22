@@ -1,0 +1,21 @@
+.go-graph {
+    padding-top: .3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-graph {
+    margin: 0 1rem;
+    padding: 0 1rem;
+    border-radius: 20px;
+    background-color: gray;
+    border: none;
+    transition: all .3s ease;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.btn-graph:hover {
+    background-color: rgb(88, 86, 86);
+}

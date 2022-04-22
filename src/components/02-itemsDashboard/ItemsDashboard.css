@@ -1,0 +1,157 @@
+.table__container {
+    width: 100%;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: calc(100% / 3);
+    grid-template-areas: 
+    "country test active "
+    "report test active"
+    "deaths test active";
+}
+
+/* Item País */
+
+.country__container {
+    width: 100%;
+    height: 10vh;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #000;
+    grid-area: country;
+}
+
+.country__container img {
+   width: 20%;
+   height: 100%;
+}
+
+.text-country {
+    width: 55%;
+    height: 100%;
+    padding-left: .5rem;
+    border-left: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text-country h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Item Casos */
+
+.cases__container {
+    height: 10vh;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #000;
+    grid-area: report;
+}
+
+.cases__container img {
+    width: 20%;
+    height: 100%;
+}
+
+.text-cases {
+    width: 55%;
+    height: 100%;
+    padding-left: .5rem;
+    border-left: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.text-cases h4 {
+    font-size: 1rem;
+}
+
+/* Item muertes */
+
+.deaths__container {
+    height: 10vh;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #000;
+    grid-area: deaths;
+}
+
+.deaths__container img {
+    width: 20%;
+    height: 100%;
+}
+
+.text-deaths {
+    width: 55%;
+    height: 100%;
+    padding-left: .5rem;
+    border-left: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.text-deaths h4 {
+    font-size: 1rem;
+}
+
+/* Item pruebas */
+
+.vacine__container {
+    height: 30vh;
+    padding: 1rem;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: test;
+}
+
+.vacine__container img {
+    width: 20%;
+}
+
+.text-vacine h4 {
+    font-size: 1.1rem;
+}
+
+/* Item casos activos */
+
+.activos__container {
+    height: 30vh;
+    padding: 1rem;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: active;
+}
+
+.activos__container img {
+    width: 25%;
+}
+
+.text-active {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.text-active h4 {
+    font-size: 1.1rem;
+}

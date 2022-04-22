@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-grafica {
+    width: 86%;
+}
+
+.nav-container {
+    padding-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-grafica {
+    font-size: 2rem;
+}
+
+.btn-back {
+    width: 8rem;
+    margin: 0 1rem;
+    border-radius: 20px;
+    background-color: gray;
+    border: none;
+    transition: all .3s ease;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.btn-back:hover {
+    background-color: rgb(88, 86, 86);
+}
+
+.select-pais {
+    font-weight: bold;
+}
+
+.promedio-deaths {
+    margin-top: 2rem;
+}
