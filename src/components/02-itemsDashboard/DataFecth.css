@@ -19,3 +19,35 @@
 .btn-graph:hover {
     background-color: rgb(88, 86, 86);
 }
+
+@media only screen and (max-width:820px) {
+    .go-graph {
+       margin: 1rem 0;
+    }
+
+    .btn-graph {
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    .go-graph h4 {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    .go-graph h4 {
+        font-size: .8rem;
+    }
+
+    .btn-graph {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width:492px) {
+    .go-graph h4 {
+        font-size: .7rem;
+    }
+}

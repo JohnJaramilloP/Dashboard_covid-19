@@ -49,11 +49,11 @@ const Grafica = () => {
     <div className="container">
       <div className="container-grafica">
         <div className="nav-container">
-          <div>
+          <div className="container-title"> 
             <h1 className="title-grafica">Gráficas de {country}</h1>
             <p>Promedio de casos de los últimos dos meses: {numeroPromedio}</p>
           </div>
-          <div>
+          <div className="container-select">
             <p className="select-pais">Selecciona el país:</p>
             <select
               onChange={getCountry}

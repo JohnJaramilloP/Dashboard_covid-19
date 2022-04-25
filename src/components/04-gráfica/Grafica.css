@@ -5,7 +5,7 @@
 }
 
 .container-grafica {
-    width: 86%;
+    width: 90%;
 }
 
 .nav-container {
@@ -13,6 +13,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container-title {
+    margin-right: 1rem;
 }
 
 .title-grafica {
@@ -42,3 +46,74 @@
 .promedio-deaths {
     margin-top: 2rem;
 }
+
+@media only screen and (max-width:1050px) {
+
+    .container__app {
+        padding: 1rem 1rem;
+    }
+
+    .select {
+        width: 12rem;
+    }
+}
+
+@media only screen and (max-width:770px) {
+
+    .title-grafica {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:640px) {
+
+    .title-grafica {
+        font-size: 1.2rem;
+    }
+
+    .container-title p {
+        font-size: .8rem;
+    }
+
+    .container-grafica {
+        width: 100%;
+    }
+    
+    .promedio-deaths {
+        font-size: .8rem;
+    }
+} 
+
+@media only screen and (max-width:550px) {
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .title-grafica {
+        font-size:.9rem;
+    }
+
+    .select-pais {
+        font-size: .8rem;
+    }
+
+    .container-title {
+        text-align: center;
+    }
+
+    .container-select {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .select {
+        font-size: .8rem;
+    }
+
+    .btn-back {
+        font-size: .8rem;
+        margin-bottom: .7rem;
+    }
+} 
+
