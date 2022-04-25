@@ -5,9 +5,10 @@ import LineGraphDeaths from "./LineGraphDeaths";
 import { useNavigate } from "react-router-dom";
 import "./Grafica.css";
 
-export const userGrahp = React.createContext();
-// Peticion de datos para gráfica y promedio
+
+
 const Grafica = () => {
+  // Peticion de datos para gráfica y promedio
   const { data } = useFecth(
     "https://corona.lmao.ninja/v2/countries?yesterday&sort"
   );
@@ -73,11 +74,9 @@ const Grafica = () => {
             Regresar
           </button>
         </div>
-        <userGrahp.Provider value={dataGraph}>
-          <LineGraph />
+          <LineGraph dataGraph={dataGraph}/>
           <p className="promedio-deaths">Promedio de muertes de los últimos dos meses: {numeroPromedioDeaths}</p>
-          <LineGraphDeaths />
-        </userGrahp.Provider>
+          <LineGraphDeaths dataGraph={dataGraph}/>
       </div>
     </div>
   );

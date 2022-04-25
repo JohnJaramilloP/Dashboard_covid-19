@@ -1,5 +1,4 @@
 import React, { useContext, useMemo } from "react";
-import { userGrahp } from "./Grafica";
 import Loader from "../05-loader/Loader";
 import {
   Chart as ChartJS,
@@ -29,9 +28,9 @@ const options = {
   responsive: true,
 };
 
-const LineGraph = () => {
+const LineGraph = ( {dataGraph} ) => {
 // Datos de los casos, histórico de 2 meses - Número de los días 
-  const dataGraph = useContext(userGrahp);
+  // const dataGraph = useContext(userGrahp);
   const dataGraphCases = !!dataGraph && dataGraph.timeline.cases;
   const dataArr = Object.entries(dataGraphCases);
   const scores = dataArr.map((e) => parseInt(e[1]));
