@@ -1,5 +1,6 @@
 .paginacion-container {
     height: 5vh;
+    margin-bottom: .5rem;
     display: flex;
     justify-content: center;
     padding: .3rem;
