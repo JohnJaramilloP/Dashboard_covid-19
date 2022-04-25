@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Dashboard_covid-19/static/css/main.43bcb2c0.css",
+    "main.css": "/Dashboard_covid-19/static/css/main.759abd4f.css",
     "main.js": "/Dashboard_covid-19/static/js/main.6eb19c72.js",
     "static/media/covid-19.jpg": "/Dashboard_covid-19/static/media/covid-19.b2592d4888691acb07db.jpg",
     "static/media/vacuna-covid.png": "/Dashboard_covid-19/static/media/vacuna-covid.18c77e681cc9f877358a.png",
@@ -8,11 +8,11 @@
     "static/media/corona.png": "/Dashboard_covid-19/static/media/corona.f6f49da1dd635bde8c1c.png",
     "static/media/sick.webp": "/Dashboard_covid-19/static/media/sick.6e45510d2ec86d199ab5.webp",
     "index.html": "/Dashboard_covid-19/index.html",
-    "main.43bcb2c0.css.map": "/Dashboard_covid-19/static/css/main.43bcb2c0.css.map",
+    "main.759abd4f.css.map": "/Dashboard_covid-19/static/css/main.759abd4f.css.map",
     "main.6eb19c72.js.map": "/Dashboard_covid-19/static/js/main.6eb19c72.js.map"
   },
   "entrypoints": [
-    "static/css/main.43bcb2c0.css",
+    "static/css/main.759abd4f.css",
     "static/js/main.6eb19c72.js"
   ]
 }
