@@ -52,5 +52,10 @@
 @media only screen and (max-width:492px) {
     .input {
         width: 2rem;
+        font-size: .8rem;
+    }
+
+    .text-max {
+        font-size: .6rem;
     }
 }
