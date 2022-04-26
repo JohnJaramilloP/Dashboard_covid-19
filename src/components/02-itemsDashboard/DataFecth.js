@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useFecth } from "../../hooks/useFecth";
+import useFecth from "../../hooks/useFetch";
 import Paginacion from "../03-paginacion/Paginacion";
 import ItemsDasboard from "./ItemsDashboard";
 import { Link } from "react-router-dom";

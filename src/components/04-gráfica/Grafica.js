@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useFecth } from "../../hooks/useFecth";
+import useFecth from "../../hooks/useFetch";
 import LineGraph from "./LineGraph";
 import LineGraphDeaths from "./LineGraphDeaths";
 import { useNavigate } from "react-router-dom";

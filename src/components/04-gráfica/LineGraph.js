@@ -29,6 +29,7 @@ const options = {
 };
 
 const LineGraph = ( {dataGraph} ) => {
+  const { loading, error} = !!dataGraph;
 // Datos de los casos, histórico de 2 meses - Número de los días 
   // const dataGraph = useContext(userGrahp);
   const dataGraphCases = !!dataGraph && dataGraph.timeline.cases;
@@ -53,8 +54,7 @@ const LineGraph = ( {dataGraph} ) => {
 
   return (
     <>{!!dataGraph ? 
-    <Line data={data} options={options} /> :
-     <Loader />}</>
+    <Line data={data} options={options} /> : loading ? <Loader /> : <h1>{ error }</h1>}</>
   );
 };
 
